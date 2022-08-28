@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/mindshift/static/css/main.7621f460.css",
+    "main.js": "/mindshift/static/js/main.a4fab0f1.js",
+    "static/js/787.28cb0dcd.chunk.js": "/mindshift/static/js/787.28cb0dcd.chunk.js",
+    "static/media/mainbg.jpg": "/mindshift/static/media/mainbg.89822566d1c2c209971d.jpg",
+    "static/media/chat.png": "/mindshift/static/media/chat.c2053432fd422ce5c561.png",
+    "static/media/bg.jpg": "/mindshift/static/media/bg.e04032360d6acfac46cb.jpg",
+    "static/media/ffps (2).png": "/mindshift/static/media/ffps (2).b0c32e06fecab79e5bdc.png",
+    "static/media/crying.png": "/mindshift/static/media/crying.5f2b9997f8b73c68b4ea.png",
+    "static/media/happiness.png": "/mindshift/static/media/happiness.6b8b2e49a9d3215a9096.png",
+    "static/media/indifferent.png": "/mindshift/static/media/indifferent.f32dc9d196ef6fb071a4.png",
+    "static/media/graph.png": "/mindshift/static/media/graph.bcd2d9bba779ee122c24.png",
+    "static/media/bar.png": "/mindshift/static/media/bar.c46a0a6d9076da53fcd8.png",
+    "index.html": "/mindshift/index.html",
+    "main.7621f460.css.map": "/mindshift/static/css/main.7621f460.css.map",
+    "main.a4fab0f1.js.map": "/mindshift/static/js/main.a4fab0f1.js.map",
+    "787.28cb0dcd.chunk.js.map": "/mindshift/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7621f460.css",
+    "static/js/main.a4fab0f1.js"
+  ]
+}
