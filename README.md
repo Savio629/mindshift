@@ -24,9 +24,4 @@ Keeping track of your mood overtime helps you to become more aware of how you ar
 ## Website Link
 [MindShift](https://savio629.github.io/mindshift/)
 
-## Video Demo
-[MindShitf Video Demo1](https://drive.google.com/drive/folders/1WGPWVPDm-a_Nlgyxk9X_7XvunKB6ki6p?usp=sharing)
-[MindShitf Video Demo2](https://savio629.github.io/mindshift/)
-## Screenshots
-[MindShift Screenshots1](https://drive.google.com/drive/folders/1WGPWVPDm-a_Nlgyxk9X_7XvunKB6ki6p?usp=sharing)
-[MindShift Screenshots2](https://savio629.github.io/mindshift/)
+
