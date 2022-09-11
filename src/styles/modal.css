@@ -60,12 +60,13 @@
     left:540px;
     width: 25%;
     height: auto;
+    top: 100px;
 }
 
 .button1 {
     position: absolute;
-    left: 600px;
-    top: 80px;
+    left: 580px;
+    top: 150px;
   align-items: center;
   appearance: none;
   background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);

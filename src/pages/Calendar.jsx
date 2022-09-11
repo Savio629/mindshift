@@ -5,11 +5,34 @@ import img1 from './happiness.png'
 import img2 from './indifferent.png'
 import img3 from './crying.png'
 import img4 from './ffps (2).png'
- function Calendar() {
+import Calendar from 'react-calendar';
+import 'react-calendar/dist/Calendar.css';
+import { differenceInCalendarDays } from 'date-fns';
+
+function isSameDay(a, b) {
+  return differenceInCalendarDays(a, b) === 0;
+}
+ function Calendarpg() {
   const [update,setupdate]=useState(0)
+  const [value, onChange] = useState(new Date());
+
+  const datesToAddContentTo = [12,14,16];
+
+function tileContent({ date, view }) {
+  // Add class to tiles in month view only
+  if (view === 'month') {
+    // Check if a date React-Calendar wants to check is on the list of dates to add class to
+    if (datesToAddContentTo.find(dDate => isSameDay(dDate, date))) {
+      return 'My content';
+    }
+  }
+}
   return (
-    <><div>
-        <img className="cal" src={img4} />
+   
+   <> <div className="cal">
+    {/* <img className="cal" src={img4} /> */}
+      <Calendar onChange={onChange} tileContent={tileContent} value={value} /> 
+ 
       </div><div>
               <Popup
                   trigger={<button className="button1"> How was your day today?</button>}
@@ -73,8 +96,12 @@ import img4 from './ffps (2).png'
           </div></>
   );
 
+
+
 }
-export default Calendar;
+  
+
+export default Calendarpg;
 /*import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
 function Product() {
